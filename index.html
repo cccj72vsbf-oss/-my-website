@@ -4,19 +4,281 @@
 
 <head>
 
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>My Website</title>
+<title>My Website</title>
+
+<style>
+
+body {
+
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  color: #222;
+
+  background: #f8f8f8;
+
+}
+
+header {
+
+  background: #111;
+
+  color: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 28px;
+
+}
+
+nav {
+
+  margin-top: 10px;
+
+}
+
+nav a {
+
+  color: white;
+
+  margin: 0 10px;
+
+  text-decoration: none;
+
+}
+
+.hero {
+
+  background: white;
+
+  padding: 80px 20px;
+
+  text-align: center;
+
+}
+
+.hero h2 {
+
+  font-size: 36px;
+
+  margin-bottom: 20px;
+
+}
+
+.hero p {
+
+  font-size: 18px;
+
+  color: #555;
+
+}
+
+.button {
+
+  display: inline-block;
+
+  margin-top: 30px;
+
+  padding: 15px 35px;
+
+  background: #111;
+
+  color: white;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+}
+
+.section {
+
+  padding: 50px 20px;
+
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+.cards {
+
+  display: flex;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  flex: 1;
+
+  min-width: 250px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+
+}
+
+.card h3 {
+
+  margin-top: 0;
+
+}
+
+footer {
+
+  background: #111;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 20px;
+
+}
+
+@media(max-width:600px){
+
+.hero h2 {
+
+  font-size: 28px;
+
+}
+
+.cards {
+
+  flex-direction: column;
+
+}
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-  <h1>ホームページ完成！</h1>
+<header>
 
-  <p>GitHubで初めて作ったサイトです。</p>
+<h1>My Website</h1>
+
+<nav>
+
+<a href="#">ホーム</a>
+
+<a href="#">記事</a>
+
+<a href="#">プロフィール</a>
+
+<a href="#">お問い合わせ</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>人生を変える情報を発信</h2>
+
+<p>
+
+経験や学びをもとに、役立つ情報を届けるサイトです。
+
+</p>
+
+<a class="button" href="#">
+
+記事を見る
+
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>最新記事</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>記事タイトル1</h3>
+
+<p>
+
+ここに記事の説明文を書きます。
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>記事タイトル2</h3>
+
+<p>
+
+ここに記事の説明文を書きます。
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>記事タイトル3</h3>
+
+<p>
+
+ここに記事の説明文を書きます。
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>このサイトについて</h2>
+
+<p>
+
+このサイトでは、仕事・副業・生活に役立つ情報を発信しています。
+
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 My Website</p>
+
+</footer>
 
 </body>
 
